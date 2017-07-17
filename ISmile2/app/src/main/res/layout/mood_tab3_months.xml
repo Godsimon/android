@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:orientation="vertical"
+    android:id="@+id/mood_tab3_months"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.github.mikephil.charting.charts.BarChart
+            android:id="@+id/month_barchart"
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:layout_weight="1"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:layout_marginLeft="20dp"
+                android:textSize="17dp"
+                android:text="Average fall asleep time:"/>
+
+            <TextView
+                android:id="@+id/aver_time_day"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:layout_marginLeft="20dp"
+                android:textSize="17dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:layout_marginLeft="20dp"
+                android:textSize="17dp"
+                android:text="Average sleep quality:"/>
+
+            <TextView
+                android:id="@+id/aver_quality_day"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:layout_marginLeft="20dp"
+                android:textSize="17dp"/>
+        </LinearLayout>
+
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/month_linechart"
+            android:layout_height="230dp"
+            android:layout_width="match_parent"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+</ScrollView>

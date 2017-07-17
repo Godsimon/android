@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.ismile.MainActivity_alarm"
+    android:transitionName="@string/activity"
+    android:background="@drawable/main_background1">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+            <TimePicker
+
+                android:id="@+id/time_picker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="48dp"
+                android:headerBackground="@android:color/transparent"
+                android:numbersBackgroundColor="#ffffffff"
+                android:numbersSelectorColor="#63a4ff"
+                android:layout_gravity="center_horizontal"
+                android:numbersTextColor="@android:color/black"
+                />
+
+
+        <Button
+            android:id="@+id/main_start"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="36dp"
+            android:background="@drawable/roundedbutton"
+            android:text="@string/main_start"
+            android:textSize="@dimen/button_text_size" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_upload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="上传数据"/>
+
+    <Button
+        android:id="@+id/start_test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="测试噪音"/>
+
+    <Button
+        android:id="@+id/stop_test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/start_test"
+        android:layout_alignParentRight="true"
+        android:text="停止测试"/>
+
+</RelativeLayout>

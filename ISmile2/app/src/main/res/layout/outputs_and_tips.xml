@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:transitionName="@string/activity"
+    android:background="@drawable/wating_background">
+
+    <TextView
+        android:id="@+id/output_string1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/output_string1"
+        android:textSize="36sp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="36dp"
+        android:textColor="#FAFAFA"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/output_string2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/output_string2"
+        android:textSize="28sp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="120dp"
+        android:textColor="#FAFAFA"/>
+
+    <ImageView
+        android:id="@+id/image_happy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="80dp"
+        android:background="@drawable/happy"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="88dp"
+        android:layout_marginTop="275dp"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:text="Happy"
+        android:id="@+id/textView" />
+
+    <ImageView
+        android:id="@+id/image_neutral"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="210dp"
+        android:background="@drawable/neutral"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="213dp"
+        android:layout_marginTop="275dp"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:text="Neutral" />
+
+
+    <ImageView
+        android:id="@+id/image_sad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="330dp"
+        android:layout_marginLeft="80dp"
+        android:background="@drawable/sad"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="99dp"
+        android:layout_marginTop="405dp"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:text="Sad"/>
+
+
+    <ImageView
+        android:id="@+id/image_angry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="330dp"
+        android:layout_marginLeft="210dp"
+        android:background="@drawable/angry"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="405dp"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:text="Angry"/>
+
+
+
+
+</RelativeLayout>

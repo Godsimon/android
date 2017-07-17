@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">iSmile</string>
+
+    // mood_analysis
+    <string name="title_alarm">Alarm</string>
+    <string name="title_mood">Mood</string>
+    <string name="title_settings">Settings</string>
+
+    // wake_up
+    <string name="main_start">Start</string>
+    <string name="snooze">Snooze</string>
+
+    // outputs_and_tips
+    <string name="output_string1">Today</string>
+    <string name="output_string2">How are you feeling?</string>
+    <string name="output_relax">Relax</string>
+    <string name="output_energetic">Energetic</string>
+    <string name="output_neutral">Neutral</string>
+    <string name="tired">Tired</string>
+    <string name="anxious">Anxious</string>
+    <string name="output_question">Is that what you feel now?</string>
+    <string name="output_yes">Yes</string>
+    <string name="output_no">No</string>
+
+    <string name="activity">activity</string>
+
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.android.ismile.SildingFinishLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/sildingFinishLayout"
+    android:transitionName="@string/activity"
+    android:background="@drawable/output_background2">
+
+    <LinearLayout
+        android:weightSum="3"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextClock
+            android:id="@+id/textClock2"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1.2"
+            android:layout_gravity="center"
+            android:gravity="bottom"
+            android:layout_marginBottom="16dp"
+            android:textSize="65dp"
+            android:format12Hour="hh:mm a"
+            android:textStyle="bold"
+            android:textColor="#EEEEEE"/>
+
+
+        <Button
+            android:id="@+id/wakeup_snooze"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/snooze"
+            android:background="@android:color/transparent"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="#3E2723"/>
+
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text=">> SLIDE TO STOP"
+        android:textSize="20dp"
+        android:textColor="#3e2723"
+        android:textStyle="bold"
+        android:letterSpacing="0.1"
+        android:layout_marginBottom="10dp"
+        />
+
+
+
+</com.example.android.ismile.SildingFinishLayout>

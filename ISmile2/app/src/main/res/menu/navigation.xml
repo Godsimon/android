@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_alarm"
+        android:icon="@drawable/ic_alarm_white_24dp"
+        android:title="@string/title_alarm" />
+
+    <item
+        android:id="@+id/navigation_mood"
+        android:icon="@drawable/ic_favorite_border_white_24dp"
+        android:title="@string/title_mood" />
+
+    <item
+        android:id="@+id/navigation_settings"
+        android:icon="@drawable/ic_settings_white_24dp"
+        android:title="@string/title_settings" />
+
+</menu>

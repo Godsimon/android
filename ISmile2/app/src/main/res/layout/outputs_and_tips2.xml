@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="@drawable/output_background2">
+
+    <TextView
+        android:id="@+id/output_string1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/output_string1"
+        android:textSize="36sp"
+        android:layout_marginTop="52dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginBottom="12dp"
+        android:textColor="#FAFAFA"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/output_string2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You may feel..."
+        android:textSize="32sp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginBottom="24dp"
+        android:textColor="#FAFAFA"/>
+
+    <ImageView
+        android:id="@+id/output_image"
+        android:layout_width="113dp"
+        android:layout_height="114dp"
+        android:layout_gravity="center"
+        android:background="@drawable/happy" />
+
+    <TextView
+        android:id="@+id/output_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Happy"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="24dp"
+        android:textSize="24sp"
+        android:textColor="#FAFAFA"/>
+
+    <TextView
+        android:id="@+id/output_how"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="48dp"
+        android:layout_marginBottom="16dp"
+        android:text="How about..."
+        android:textSize="36sp"
+        android:textColor="#003756"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/output_tip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="48dp"
+        android:layout_marginRight="48dp"
+        android:lineSpacingExtra="12dp"
+        android:text="      Keep that sleep routine, you’re doing well"
+        android:textSize="28dp"
+        android:textColor="#003756"/>
+
+
+
+</LinearLayout>
